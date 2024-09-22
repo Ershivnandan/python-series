@@ -102,3 +102,4 @@ arr = [2192, 13849, 3443, 20919, 10086, 31384, 4405]
 res = print2largest(arr)
 
 console.log(res)
+ 
