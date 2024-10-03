@@ -34,7 +34,7 @@ def merge(arr, l, mid, r):
     k+=1
     
 def mergeSort(arr, l, r):
-  if l< r:
+  if l < r:
     mid = (l+r)//2
     
     mergeSort(arr,l, mid)

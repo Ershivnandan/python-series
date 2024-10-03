@@ -9,9 +9,9 @@ def reverse_linked_list(head):
     current = head
 
     while current:
-        next_node = current.next  # store next node
-        current.next = prev       # reverse the current node's pointer
-        prev = current            # move pointers one position ahead
+        next_node = current.next 
+        current.next = prev       
+        prev = current            
         current = next_node
     
     return prev  # new head of the reversed list
